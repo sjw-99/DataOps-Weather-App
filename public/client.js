@@ -26,7 +26,7 @@ async function loadChart() {
       x: timestamps,
       y: temps,
       type: "scatter",
-      mode: "line+markers",
+      mode: "lines+markers",
       line: {
         color: "blue",
       },
